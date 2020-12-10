@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RunScreen">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="419dp"
+        android:layout_height="741dp"
+        android:tint="#00FFFFFF"
+        android:visibility="visible"
+        app:srcCompat="@drawable/e604cda23_a6d7_42ee_b51b_0796a886c505"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-6dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="154dp"
+        android:layout_height="137dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#303998"
+        android:text="Settings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="269dp"
+        android:layout_height="293dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitStart"
+        android:tint="#3E3E6D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_notification_overlay"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="154dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#303998"
+        android:text="Home"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="213dp"
+        android:layout_height="51dp"
+        android:background="#424964"
+        android:fontFamily="sans-serif-light"
+        android:text="Pause"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FBFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="147dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:text="Genre"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="442dp"
+        android:layout_height="437dp"
+        android:background="?android:attr/listChoiceIndicatorSingle"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="-9dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

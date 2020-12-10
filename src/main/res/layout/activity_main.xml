@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+//red button
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="155dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#A30000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="sendMessage"
+        android:text="Rock"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#DC8300"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+//purple button
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="155dp"
+        android:layout_height="222dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="#4B00B6"
+        android:fontFamily="serif"
+        android:onClick="sendMessage"
+        android:text="RnB"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.0" />
+//blue button
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="155dp"
+        android:layout_height="222dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#00B4CC"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="sendMessage"
+        android:text="EDM"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="106dp" />
+//green button
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="155dp"
+        android:layout_height="222dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="#5C8A00"
+        android:fontFamily="cursive"
+        android:onClick="sendMessage"
+        android:text="Hip-Hop"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    //Settings button
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:background="@android:color/darker_gray"
+        android:fontFamily="monospace"
+        android:text="Settings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.384" />
+//Background
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="431dp"
+        android:layout_height="764dp"
+        android:onClick="sendMessage"
+        android:tint="#00FFFFFF"
+        android:visibility="visible"
+        app:srcCompat="@drawable/e604cda23_a6d7_42ee_b51b_0796a886c505"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="-17dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button24"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="314dp"
+        android:layout_height="83dp"
+        android:background="@android:color/darker_gray"
+        android:fontFamily="monospace"
+        android:text="Moving Music"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0015AD"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="14dp" />
+    //App Name
+
+</androidx.constraintlayout.widget.ConstraintLayout>
